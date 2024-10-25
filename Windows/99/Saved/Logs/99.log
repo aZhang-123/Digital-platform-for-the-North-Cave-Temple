@@ -1,0 +1,1620 @@
+﻿Log file open, 10/15/24 15:28:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: 99
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Win64/UnrealTraceServer.exe')
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.4317] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|12th Gen Intel(R) Core(TM) i7-12700H"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" ..\..\..\99\99.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="7141091c467c85194c009b8a9690d973"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogInit: Display: Project file not found: ../../../99/99.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../99/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../99/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../99/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../99/Content/Paks/99-Windows.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../99/Content/Paks/99-Windows.pak.
+LogIoDispatcher: Display: Reading toc: ../../../99/Content/Paks/99-Windows.utoc
+LogIoDispatcher: Display: Toc signature hash: 0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../99/Content/Paks/99-Windows.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../99/Content/Paks/99-Windows.utoc"
+LogPakFile: Display: Mounted Pak file '../../../99/Content/Paks/99-Windows.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.095220
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../99/AssetRegistry.bin'
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-9817CE884F9AADB97D69C79BFD0D89F4
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../99/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Found config from plugin[ChaosVD] Engine
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlHttpThread
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: UnrealGame.exe
+LogInit: Build: ++UE5+Release-5.4-CL-35576357
+LogInit: Platform=Windows
+LogInit: MachineId=7141091c467c85194c009b8a9690d973
+LogInit: DeviceId=
+LogInit: Engine Version: 5.4.4-35576357+++UE5+Release-5.4
+LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
+LogInit: Net CL: 33043543
+LogInit: OS: Windows 11 (23H2) [10.0.22631.4317] (), CPU: 12th Gen Intel(R) Core(TM) i7-12700H, GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+LogInit: Compiled (64-bit): Aug 16 2024 04:15:50
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.4
+LogInit: Command Line: 
+LogInit: Base Directory: E:/BaiduNetdiskDownload/Windows/Windows/Engine/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 39
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 48
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 134
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 12
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 13
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 9
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 30
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: true, Async Post Load: true
+LogStreaming: Display: AsyncLoading2 - Initialized
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[r.setres:1280x720]]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:100000]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[r.Substrate:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2024.10.15-07.28.31:632][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2024.10.15-07.28.31:632][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2024.10.15-07.28.31:632][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2024.10.15-07.28.31:679][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapStrength:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.10.15-07.28.31:679][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2024.10.15-07.28.31:680][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2024.10.15-07.28.31:680][  0]LogRHI: Using Default RHI: D3D11
+[2024.10.15-07.28.31:680][  0]LogRHI: Using Highest Feature Level of D3D11: SM5
+[2024.10.15-07.28.31:680][  0]LogRHI: Loading RHI module D3D11RHI
+[2024.10.15-07.28.31:681][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.10.15-07.28.31:681][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2024.10.15-07.28.31:686][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_1
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI: D3D11 adapters:
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI: Testing D3D11 Adapter 0:
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060 Laptop GPU
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     DeviceId    : 2560
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     SubSysId    : 3ae817aa
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     DedicatedVideoMemory : 6287261696 bytes
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     SharedSystemMemory : 8445489152 bytes
+[2024.10.15-07.28.31:687][  0]LogD3D11RHI:     AdapterLuid : 0 34002217
+[2024.10.15-07.28.31:829][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Laptop GPU' (Feature Level 11_1)
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:       5996/0/8054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI: Testing D3D11 Adapter 1:
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     Description : Intel(R) Iris(R) Xe Graphics
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     DeviceId    : 46a6
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     SubSysId    : 3ae817aa
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     Revision    : 000c
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     SharedSystemMemory : 8445489152 bytes
+[2024.10.15-07.28.31:830][  0]LogD3D11RHI:     AdapterLuid : 0 82363
+[2024.10.15-07.28.31:950][  0]LogD3D11RHI:    1. 'Intel(R) Iris(R) Xe Graphics' (Feature Level 11_1)
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:       128/0/8054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI: Testing D3D11 Adapter 2:
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     Description : Microsoft Basic Render Driver
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     VendorId    : 1414
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     DeviceId    : 008c
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     SubSysId    : 0000
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     Revision    : 0000
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     DedicatedVideoMemory : 0 bytes
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     SharedSystemMemory : 8445489152 bytes
+[2024.10.15-07.28.31:951][  0]LogD3D11RHI:     AdapterLuid : 0 94167
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_1)
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:       0/0/8054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060 Laptop GPU
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     DeviceId    : 2560
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     SubSysId    : 3ae817aa
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     DedicatedVideoMemory : 6287261696 bytes
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     SharedSystemMemory : 8445489152 bytes
+[2024.10.15-07.28.31:952][  0]LogD3D11RHI:     AdapterLuid : 0 34002217
+[2024.10.15-07.28.31:952][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2024.10.15-07.28.31:952][  0]LogInit: Selected Device Profile: [Windows]
+[2024.10.15-07.28.31:952][  0]LogHAL: Display: Platform has ~ 16 GB [16890978304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.10.15-07.28.31:952][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:2]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.ViewDistanceScale:0.4]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.FXAA.Quality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:100]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TSR.Resurrection:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0.5]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:2.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.DistanceFieldAO:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.MotionBlurQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:300]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.LensFlareQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.BloomQuality:4]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:25.000]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.FastBlurThreshold:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Upscale.Quality:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.LightShaftQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Filter.SizeScale:0.6]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Streaming.MipBias:16]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Streaming.Boost:0.3]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.MaxAnisotropy:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:4]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:400]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.RefractionQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SceneColorFormat:3]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.DetailMode:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SSS.Scale:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SSS.SampleSet:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SSS.Quality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SSS.HalfRes:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SSGI.Quality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.125]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.ParticleLightQuality:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[foliage.DensityScale:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[grass.DensityScale:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:0]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@0] File [Scalability]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[r.Shaders.WarningsAsErrors:0 ;; 0: off, 1: global shaders, 2: all]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.10.15-07.28.31:954][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.10.15-07.28.31:954][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2024.10.15-07.28.31:954][  0]LogInit: Computer: WIKI‘S
+[2024.10.15-07.28.31:954][  0]LogInit: User: 刘索隆
+[2024.10.15-07.28.31:954][  0]LogInit: CPU Page size=4096, Cores=14
+[2024.10.15-07.28.31:954][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.10.15-07.28.33:062][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=33.0GB
+[2024.10.15-07.28.33:062][  0]LogMemory: Platform Memory Stats for Windows
+[2024.10.15-07.28.33:062][  0]LogMemory: Process Physical Memory: 216.78 MB used, 234.52 MB peak
+[2024.10.15-07.28.33:062][  0]LogMemory: Process Virtual Memory: 126.16 MB used, 133.96 MB peak
+[2024.10.15-07.28.33:062][  0]LogMemory: Physical Memory: 8361.22 MB used,  7747.27 MB free, 16108.49 MB total
+[2024.10.15-07.28.33:062][  0]LogMemory: Virtual Memory: 25280.07 MB used,  6490.00 MB free, 31770.07 MB total
+[2024.10.15-07.28.33:062][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2024.10.15-07.28.33:066][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.10.15-07.28.33:079][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2024.10.15-07.28.33:079][  0]LogInit: Using OS detected language (zh-CN).
+[2024.10.15-07.28.33:079][  0]LogInit: Using OS detected locale (zh-CN).
+[2024.10.15-07.28.33:079][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
+[2024.10.15-07.28.33:079][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
+[2024.10.15-07.28.33:112][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2024.10.15-07.28.33:112][  0]LogWindowsTextInputMethodSystem:   - 中文(简体，中国) - 微软拼音 (TSF IME).
+[2024.10.15-07.28.33:113][  0]LogWindowsTextInputMethodSystem: Activated input method: 中文(简体，中国) - 微软拼音 (TSF IME).
+[2024.10.15-07.28.33:162][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2024.10.15-07.28.33:162][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.10.15-07.28.33:226][  0]LogRHI: Using Default RHI: D3D11
+[2024.10.15-07.28.33:226][  0]LogRHI: Using Highest Feature Level of D3D11: SM5
+[2024.10.15-07.28.33:226][  0]LogRHI: Loading RHI module D3D11RHI
+[2024.10.15-07.28.33:226][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2024.10.15-07.28.33:226][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2024.10.15-07.28.33:226][  0]LogWindows: Attached monitors:
+[2024.10.15-07.28.33:226][  0]LogWindows:     resolution: 2048x1152, work area: (0, 0) -> (2048, 1104), device: '\\.\DISPLAY5' [PRIMARY]
+[2024.10.15-07.28.33:226][  0]LogWindows: Found 1 attached monitors.
+[2024.10.15-07.28.33:226][  0]LogWindows: Gathering driver information using Windows Setup API
+[2024.10.15-07.28.33:227][  0]LogRHI: RHI Adapter Info:
+[2024.10.15-07.28.33:227][  0]LogRHI:             Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[2024.10.15-07.28.33:227][  0]LogRHI:   Driver Version: 565.90 (internal:32.0.15.6590, unified:565.90)
+[2024.10.15-07.28.33:227][  0]LogRHI:      Driver Date: 9-26-2024
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     GPU DeviceId: 0x2560 (for the marketing name, search the web for "GPU Device Id")
+[2024.10.15-07.28.33:227][  0]LogRHI: Texture pool is 4197 MB (70% of 5996 MB)
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060 Laptop GPU
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     DeviceId    : 2560
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     SubSysId    : 3ae817aa
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     DedicatedVideoMemory : 6287261696 bytes
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     SharedSystemMemory : 8445489152 bytes
+[2024.10.15-07.28.33:227][  0]LogD3D11RHI:     AdapterLuid : 0 34002217
+[2024.10.15-07.28.33:299][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.10.15-07.28.33:299][  0]LogD3D11RHI: Async texture creation enabled
+[2024.10.15-07.28.33:299][  0]LogD3D11RHI: D3D11_MAP_WRITE_NO_OVERWRITE for dynamic buffer SRVs is supported
+[2024.10.15-07.28.33:299][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.10.15-07.28.33:304][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061087).
+[2024.10.15-07.28.33:316][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2024.10.15-07.28.33:330][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2024.10.15-07.28.33:330][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.10.15-07.28.33:335][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 3888 unique shaders.
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Global_SC', but could not find it neither as a monolithic library nor as a chunked one.
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Paper2D', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ACLPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigModules', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigSpline', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'IKRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'GameplayCameras', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosVD', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'AnimationSharing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'BlueprintHeaderView', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryMode', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'LightMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ObjectMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'SpeedTreeImporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'GLTFExporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosNiagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosSolverPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Dataflow', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'FullBodyIK', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryCollectionPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'PythonScriptPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ToolPresets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Niagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'NiagaraSimCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Interchange', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaCompositing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaPlate', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'UVEditor', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'SequencerScripting', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'DatasmithContent', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioSynesthesia', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioWidgets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Metasound', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'ResonanceAudio', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'RigVM', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryProcessing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Synthesis', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'WaveTable', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'Takes', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogShaderLibrary: Display: Tried to open shader library 'TraceUtilities', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:337][  0]LogTemp: Display: Clearing the OS Cache
+[2024.10.15-07.28.33:340][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: Platform=PCD3D_SM5 (0)
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: ---
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: ---
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2024.10.15-07.28.33:341][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2024.10.15-07.28.33:346][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2024.10.15-07.28.33:346][  0]LogInit: XR: MultiViewport is Disabled
+[2024.10.15-07.28.33:346][  0]LogInit: XR: Mobile Multiview is Disabled
+[2024.10.15-07.28.33:346][  0]LogSlate: Using FreeType 2.10.0
+[2024.10.15-07.28.33:347][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'Paper2D', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ACLPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigModules', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ControlRigSpline', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'IKRig', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'GameplayCameras', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosVD', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'AnimationSharing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'BlueprintHeaderView', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryMode', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'LightMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ObjectMixer', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'SpeedTreeImporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'UVEditor', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'DatasmithContent', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'GLTFExporter', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosNiagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ChaosSolverPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'Dataflow', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'FullBodyIK', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryCollectionPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'PythonScriptPlugin', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'ToolPresets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'Niagara', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'NiagaraSimCaching', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'Interchange', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaCompositing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'MediaPlate', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'SequencerScripting', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioSynesthesia', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:391][  0]LogShaderLibrary: Display: Tried to open shader library 'AudioWidgets', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'GeometryProcessing', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'Metasound', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'ResonanceAudio', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'RigVM', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'Synthesis', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'WaveTable', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'TraceUtilities', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open shader library 'Takes', but could not find it (only tried to open it as a monolithic library).
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library 99. Total 2715 unique shaders.
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library 99
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Logical shader library '99' has been created as a monolithic library
+[2024.10.15-07.28.33:392][  0]LogShaderLibrary: Display: Tried to open again shader library '99', but could not find new components for it (existing components: 1).
+[2024.10.15-07.28.33:392][  0]LogInit: Using OS detected language (zh-CN).
+[2024.10.15-07.28.33:392][  0]LogInit: Using OS detected locale (zh-CN).
+[2024.10.15-07.28.33:392][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
+[2024.10.15-07.28.33:392][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
+[2024.10.15-07.28.33:393][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2024.10.15-07.28.33:483][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2024.10.15-07.28.33:487][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2024.10.15-07.28.33:487][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2024.10.15-07.28.33:488][  0]LogDeviceProfileManager: Active device profile: [000001B74F84CD00][000001B74F42B6E0 66] Windows
+[2024.10.15-07.28.33:488][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Windows"
+[2024.10.15-07.28.33:495][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2024.10.15-07.28.33:495][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2024.10.15-07.28.33:495][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2024.10.15-07.28.33:563][  0]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.000062 seconds
+[2024.10.15-07.28.33:577][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.10.15-07.28.33:577][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.10.15-07.28.33:593][  0]LogMoviePlayer: Initializing movie player
+[2024.10.15-07.28.33:595][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 1F242007989748668000000000009800 | Instance: 607C2422490EA6AD589456AB07CD36A4 (WIKI‘S-78672).
+[2024.10.15-07.28.33:635][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2024.10.15-07.28.33:636][  0]LogMetasoundEngine: MetaSound Engine Initialized
+[2024.10.15-07.28.33:638][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.10.15-07.28.33:639][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Runtime/AudioWidgets/Content/Resources/ScrubHandleDown_Clamped.png' error.
+[2024.10.15-07.28.33:639][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Runtime/AudioWidgets/Content/Resources/ScrubHandleDown_Clamped.png
+[2024.10.15-07.28.33:644][  0]LogUObjectArray: 24550 objects as part of root set at end of initial load.
+[2024.10.15-07.28.33:644][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2024.10.15-07.28.33:644][  0]LogUObjectAllocator: 5226944 out of 0 bytes used by permanent object pool.
+[2024.10.15-07.28.33:644][  0]LogUObjectArray: CloseDisregardForGC: 24550/24550 objects in disregard for GC pool
+[2024.10.15-07.28.33:651][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 23963 public script object entries (632.00 KB)
+[2024.10.15-07.28.33:651][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: true, IsInitialLoad: false
+[2024.10.15-07.28.33:652][  0]LogEngine: Initializing Engine...
+[2024.10.15-07.28.33:653][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.10.15-07.28.33:660][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.10.15-07.28.33:660][  0]LogInit: Texture streaming: Enabled
+[2024.10.15-07.28.33:661][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.10.15-07.28.33:661][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.10.15-07.28.33:661][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.10.15-07.28.33:661][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2024.10.15-07.28.33:665][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: AudioInfo: 'RADA' Registered
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.10.15-07.28.33:665][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.15-07.28.33:665][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.15-07.28.33:665][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.15-07.28.33:665][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.15-07.28.33:665][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.15-07.28.33:665][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.15-07.28.33:665][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.15-07.28.33:665][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.15-07.28.33:666][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.15-07.28.33:666][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.15-07.28.33:670][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.15-07.28.33:798][  0]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2024.10.15-07.28.33:799][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.15-07.28.33:799][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.15-07.28.33:799][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.15-07.28.33:800][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2024.10.15-07.28.33:800][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.15-07.28.33:800][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.15-07.28.33:800][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2024.10.15-07.28.33:800][  0]LogInit: FAudioDevice initialized with ID 1.
+[2024.10.15-07.28.33:802][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2024.10.15-07.28.33:802][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.10.15-07.28.33:802][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.10.15-07.28.33:803][  0]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Temp/Untitled_0.Untitled'.
+[2024.10.15-07.28.33:803][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.10.15-07.28.33:803][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-07.28.33:803][  0]LogInit: Display: Game Engine Initialized.
+[2024.10.15-07.28.33:805][  0]LogInit: Display: Starting Game.
+[2024.10.15-07.28.33:805][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/guanka/mainmenumap?Name=Player"
+[2024.10.15-07.28.33:805][  0]LogNet: Browse: /Game/guanka/mainmenumap?Name=Player
+[2024.10.15-07.28.33:805][  0]LogLoad: LoadMap: /Game/guanka/mainmenumap?Name=Player
+[2024.10.15-07.28.33:805][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2024.10.15-07.28.33:805][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-07.28.33:805][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-07.28.33:805][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.10.15-07.28.33:805][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.10.15-07.28.33:832][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.15-07.28.33:832][  0]LogStreaming: Display: 0.001 ms for processing 37 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 0 (80->80) packages and 0 (83->83) public exports.
+[2024.10.15-07.28.33:834][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.10.15-07.28.33:838][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'mainmenumap'.
+[2024.10.15-07.28.33:838][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.10.15-07.28.33:839][  0]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/guanka/mainmenumap.mainmenumap'.
+[2024.10.15-07.28.33:839][  0]LogLoad: Game class is 'GameModeBase'
+[2024.10.15-07.28.33:840][  0]LogWorld: Bringing World /Game/guanka/mainmenumap.mainmenumap up for play (max tick rate 0) at 2024.10.15-15.28.33
+[2024.10.15-07.28.33:840][  0]LogWorld: Bringing up level for play took: 0.000194
+[2024.10.15-07.28.33:840][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.15-07.28.33:841][  0]LogLoad: Took 0.036865 seconds to LoadMap(/Game/guanka/mainmenumap)
+[2024.10.15-07.28.33:841][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/guanka/mainmenumap
+[2024.10.15-07.28.33:841][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2024.10.15-07.28.33:843][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2024.10.15-07.28.33:846][  0]LogSlate: Took 0.003872 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.ufont' (3848K)
+[2024.10.15-07.28.34:015][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.10.15-07.28.34:122][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2024.10.15-07.28.34:122][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=175472, PathHashSize=16, EntriesSize=21840, TotalSize=197328
+[2024.10.15-07.28.34:122][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2024.10.15-07.28.34:122][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2024.10.15-07.28.34:127][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.10.15-07.28.34:127][  0]LogLoad: (Engine Initialization) Total time: 2.70 seconds
+[2024.10.15-07.28.34:130][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-07.28.34:132][  0]LogContentStreaming: Texture pool size now 400 MB
+[2024.10.15-07.28.34:132][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="400"
+[2024.10.15-07.28.35:129][578]LogAudio: Warning: Detected orphaned looping sound '背景音效'.
+[2024.10.15-07.28.39:655][357]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/guanka/NewMap"
+[2024.10.15-07.28.39:655][357]LogNet: Browse: /Game/guanka/NewMap
+[2024.10.15-07.28.39:655][357]LogLoad: LoadMap: /Game/guanka/NewMap
+[2024.10.15-07.28.39:655][357]LogWorld: BeginTearingDown for /Game/guanka/mainmenumap
+[2024.10.15-07.28.39:655][357]LogWorld: UWorld::CleanupWorld for mainmenumap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-07.28.39:655][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-07.28.39:655][357]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.10.15-07.28.39:655][357]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.10.15-07.28.39:687][357]LogStreaming: Display: 0.004 ms for processing 148 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 7 (89->82) packages and 16 (101->85) public exports.
+[2024.10.15-07.28.39:687][357]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.15-07.28.39:688][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.10.15-07.28.39:690][357]LogStreaming: Display: FlushAsyncLoading(55): 1 QueuedPackages, 0 AsyncPackages
+[2024.10.15-07.28.49:844][357]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2024.10.15-07.28.49:844][357]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.10.15-07.28.49:845][357]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/guanka/NewMap.NewMap'.
+[2024.10.15-07.28.49:845][357]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.15-07.28.49:845][357]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.15-07.28.49:845][357]LogWorldPartition: UWorldPartition::Initialize : World = /Game/guanka/NewMap.NewMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.15-07.28.49:845][357]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.15-07.28.49:845][357]LogContentBundle: [NewMap(Standalone)] Creating new container.
+[2024.10.15-07.28.49:845][357]LogWorldPartition: Display: WorldPartition initialize took 71 us
+[2024.10.15-07.28.49:845][357]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.10.15-07.28.49:961][357]LogWorld: Bringing World /Game/guanka/NewMap.NewMap up for play (max tick rate 0) at 2024.10.15-15.28.49
+[2024.10.15-07.28.49:961][357]LogWorld: Bringing up level for play took: 0.115766
+[2024.10.15-07.28.51:255][357]LogLoad: Took 11.600345 seconds to LoadMap(/Game/guanka/NewMap)
+[2024.10.15-07.28.51:255][357]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/guanka/NewMap
+[2024.10.15-07.28.51:366][358]LogAudio: Warning: Detected orphaned looping sound '背景音效'.
+[2024.10.15-07.29.35:245][978]LogStreaming: Display: 0.016 ms for processing 139 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 0 (554->554) packages and 129 (1414->1285) public exports.
+[2024.10.15-07.30.45:244][569]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.15-07.30.45:244][569]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.10.15-07.30.45:244][569]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.10.15-07.30.47:855][814]r.MotionBlurQuality = "4"
+[2024.10.15-07.30.47:856][814]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2024.10.15-07.30.47:856][814]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2024.10.15-07.30.47:856][814]LogConsoleManager: Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '4'
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.10.15-07.30.47:856][814]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2024.10.15-07.30.47:857][814]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2024.10.15-07.30.47:857][814]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.DetailMode:3]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2024.10.15-07.30.47:857][814]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2024.10.15-07.30.47:857][814]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.10.15-07.30.47:857][814]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2024.10.15-07.30.47:857][814]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2024.10.15-07.30.47:869][814]LogBlueprintUserMessages: [None] 保存成功
+[2024.10.15-07.30.47:871][814]LogBlueprintUserMessages: [None] 保存成功
+[2024.10.15-07.30.47:872][814]LogBlueprintUserMessages: [None] 保存成功
+[2024.10.15-07.30.47:945][814]LogSlate: Took 0.008477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.10.15-07.30.48:001][816]LogContentStreaming: Texture pool size now 1000 MB
+[2024.10.15-07.30.48:001][816]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2024.10.15-07.30.50:261][847]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.SkeletalMeshLODBias:2]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.ViewDistanceScale:0.4]]
+[2024.10.15-07.30.50:261][847]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.FXAA.Quality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.TemporalAA.Quality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:100]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.TSR.Resurrection:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0.5]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0.0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:2.0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2024.10.15-07.30.50:261][847]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.DistanceFieldAO:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:1]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2024.10.15-07.30.50:261][847]LogConsoleManager: Warning: Setting the console variable 'r.MotionBlurQuality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '4'
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:1]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.AmbientOcclusionLevels:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.DepthOfFieldQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.RenderTargetPoolMin:300]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.LensFlareQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.SceneColorFringeQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.BloomQuality:4]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:25.000]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.FastBlurThreshold:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Upscale.Quality:1]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.LightShaftQuality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Filter.SizeScale:0.6]]
+[2024.10.15-07.30.50:261][847]LogConfig: Set CVar [[r.Tonemapper.Quality:0]]
+[2024.10.15-07.30.50:261][847]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.Streaming.MipBias:16]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.Streaming.Boost:0.3]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.MaxAnisotropy:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.VT.MaxAnisotropy:4]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.Streaming.PoolSize:400]]
+[2024.10.15-07.30.50:262][847]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.RefractionQuality:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SceneColorFormat:3]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.DetailMode:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SSS.Scale:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SSS.SampleSet:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SSS.Quality:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SSS.HalfRes:1]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SSGI.Quality:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.125]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.ParticleLightQuality:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:1]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[fx.Niagara.QualityLevel:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[foliage.DensityScale:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[grass.DensityScale:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2024.10.15-07.30.50:262][847]LogConfig: Set CVar [[r.AnisotropicMaterials:0]]
+[2024.10.15-07.30.50:262][847]LogConfig: Applying CVar settings from Section [LandscapeQuality@0] File [Scalability]
+[2024.10.15-07.30.50:471][851]LogContentStreaming: Texture pool size now 400 MB
+[2024.10.15-07.30.50:471][851]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="400"
+[2024.10.15-07.30.52:211][ 19]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/guanka/mainmenu"
+[2024.10.15-07.30.52:211][ 19]LogNet: Browse: /Game/guanka/mainmenu
+[2024.10.15-07.30.52:211][ 19]LogLoad: LoadMap: /Game/guanka/mainmenu
+[2024.10.15-07.30.52:211][ 19]LogWorld: BeginTearingDown for /Game/guanka/NewMap
+[2024.10.15-07.30.52:212][ 19]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-07.30.52:213][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-07.30.52:213][ 19]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/guanka/NewMap.NewMap
+[2024.10.15-07.30.52:213][ 19]LogContentBundle: [NewMap(Standalone)] Deleting container.
+[2024.10.15-07.30.52:213][ 19]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.10.15-07.30.52:213][ 19]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.10.15-07.30.52:237][ 19]LogStreaming: Display: 0.096 ms for processing 4433 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 471 (554->83) packages and 1199 (1285->86) public exports.
+[2024.10.15-07.30.52:240][ 19]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.15-07.30.52:848][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.10.15-07.30.52:852][ 19]LogStreaming: Display: FlushAsyncLoading(56): 1 QueuedPackages, 0 AsyncPackages
+[2024.10.15-07.30.52:866][ 19]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/guanka/mainmenumap?Name=Player"
+[2024.10.15-07.30.52:866][ 19]LogNet: Browse: /Game/guanka/mainmenumap?Name=Player
+[2024.10.15-07.30.52:866][ 19]LogLoad: LoadMap: /Game/guanka/mainmenumap?Name=Player
+[2024.10.15-07.30.52:867][ 19]LogStreaming: Display: 0.002 ms for processing 34 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 2 (85->83) packages and 7 (93->86) public exports.
+[2024.10.15-07.30.52:867][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.10.15-07.30.52:870][ 19]LogAudio: Display: Audio Device (ID: 1) registered with world 'mainmenumap'.
+[2024.10.15-07.30.52:870][ 19]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.10.15-07.30.52:870][ 19]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/guanka/mainmenumap.mainmenumap'.
+[2024.10.15-07.30.52:870][ 19]LogLoad: Game class is 'GameModeBase'
+[2024.10.15-07.30.52:871][ 19]LogWorld: Bringing World /Game/guanka/mainmenumap.mainmenumap up for play (max tick rate 0) at 2024.10.15-15.30.52
+[2024.10.15-07.30.52:871][ 19]LogWorld: Bringing up level for play took: 0.000202
+[2024.10.15-07.30.52:871][ 19]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.15-07.30.52:872][ 19]LogLoad: Took 0.006822 seconds to LoadMap(/Game/guanka/mainmenumap)
+[2024.10.15-07.30.52:872][ 19]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/guanka/mainmenumap
+[2024.10.15-07.30.52:872][ 19]LogGlobalStatus: Warning: UEngine::BroadcastTravelFailure Travel failed, type: ETravelFailure::ClientTravelFailure, reason: "Failed to load package '/Game/guanka/mainmenu'"
+[2024.10.15-07.30.52:872][ 19]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Failed to load package '/Game/guanka/mainmenu'
+[2024.10.15-07.30.52:872][ 19]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Failed to load package '/Game/guanka/mainmenu''
+[2024.10.15-07.30.52:873][ 19]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:873][ 19]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:873][ 19]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:873][ 20]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/guanka/mainmenumap?closed"
+[2024.10.15-07.30.52:873][ 20]LogNet: Browse: /Game/guanka/mainmenumap?closed
+[2024.10.15-07.30.52:873][ 20]LogNet: Connection failed; returning to Entry
+[2024.10.15-07.30.52:873][ 20]LogLoad: LoadMap: /Game/guanka/mainmenumap?closed
+[2024.10.15-07.30.52:873][ 20]LogWorld: BeginTearingDown for /Game/guanka/mainmenumap
+[2024.10.15-07.30.52:875][ 20]LogWorld: UWorld::CleanupWorld for mainmenumap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-07.30.52:875][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-07.30.52:875][ 20]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.10.15-07.30.52:875][ 20]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.10.15-07.30.52:897][ 20]LogStreaming: Display: 0.009 ms for processing 146 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 7 (90->83) packages and 16 (102->86) public exports.
+[2024.10.15-07.30.52:898][ 20]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.15-07.30.52:900][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.15-07.30.52:903][ 20]LogStreaming: Display: FlushAsyncLoading(58): 1 QueuedPackages, 0 AsyncPackages
+[2024.10.15-07.30.52:905][ 20]LogAudio: Display: Audio Device (ID: 1) registered with world 'mainmenumap'.
+[2024.10.15-07.30.52:905][ 20]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.10.15-07.30.52:907][ 20]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/guanka/mainmenumap.mainmenumap'.
+[2024.10.15-07.30.52:907][ 20]LogLoad: Game class is 'GameModeBase'
+[2024.10.15-07.30.52:907][ 20]LogWorld: Bringing World /Game/guanka/mainmenumap.mainmenumap up for play (max tick rate 0) at 2024.10.15-15.30.52
+[2024.10.15-07.30.52:907][ 20]LogWorld: Bringing up level for play took: 0.000186
+[2024.10.15-07.30.52:907][ 20]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.15-07.30.52:909][ 20]LogLoad: Took 0.035153 seconds to LoadMap(/Game/guanka/mainmenumap)
+[2024.10.15-07.30.52:909][ 20]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/guanka/mainmenumap
+[2024.10.15-07.30.52:910][ 20]LogStreaming: Display: 0.000 ms for processing 6 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 0 (90->90) packages and 0 (102->102) public exports.
+[2024.10.15-07.30.52:917][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.10.15-07.30.52:919][ 20]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:919][ 20]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:920][ 20]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:920][ 21]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:920][ 21]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:920][ 21]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:929][ 22]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:929][ 22]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:929][ 22]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:933][ 23]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:933][ 23]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:933][ 23]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:938][ 24]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:938][ 24]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:938][ 24]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:943][ 25]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:943][ 25]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:943][ 25]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:950][ 26]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:950][ 26]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:950][ 26]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:957][ 27]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:957][ 27]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:957][ 27]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:964][ 28]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:964][ 28]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:964][ 28]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:971][ 29]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:971][ 29]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:971][ 29]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:978][ 30]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:978][ 30]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:978][ 30]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:984][ 31]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:984][ 31]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:984][ 31]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:992][ 32]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:992][ 32]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:992][ 32]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:998][ 33]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:998][ 33]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.52:998][ 33]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:005][ 34]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:005][ 34]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:005][ 34]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:012][ 35]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:012][ 35]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:012][ 35]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:019][ 36]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:019][ 36]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:019][ 36]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:026][ 37]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:026][ 37]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:026][ 37]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:033][ 38]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:033][ 38]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:033][ 38]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:040][ 39]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:040][ 39]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:040][ 39]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:047][ 40]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:047][ 40]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:047][ 40]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:053][ 41]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:053][ 41]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:053][ 41]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:061][ 42]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:061][ 42]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:061][ 42]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:067][ 43]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:068][ 43]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:068][ 43]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:075][ 44]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:075][ 44]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:075][ 44]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:083][ 45]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:083][ 45]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:083][ 45]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:089][ 46]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:089][ 46]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:089][ 46]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:103][ 47]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:103][ 47]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:103][ 47]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:112][ 48]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:112][ 48]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:112][ 48]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:116][ 49]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:116][ 49]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:116][ 49]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:123][ 50]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:123][ 50]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:123][ 50]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:130][ 51]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:130][ 51]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:130][ 51]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:138][ 52]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:138][ 52]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:138][ 52]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:145][ 53]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:145][ 53]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:145][ 53]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:152][ 54]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:152][ 54]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:152][ 54]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:158][ 55]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:158][ 55]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:158][ 55]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:165][ 56]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:165][ 56]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:165][ 56]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:173][ 57]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:173][ 57]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:173][ 57]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:179][ 58]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:179][ 58]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:179][ 58]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:186][ 59]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:186][ 59]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:186][ 59]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:193][ 60]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:193][ 60]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:193][ 60]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:201][ 61]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:201][ 61]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:201][ 61]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:207][ 62]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:207][ 62]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:207][ 62]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:214][ 63]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:214][ 63]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:214][ 63]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:223][ 64]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:223][ 64]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:223][ 64]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:228][ 65]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:228][ 65]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:228][ 65]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:235][ 66]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:235][ 66]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:235][ 66]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:242][ 67]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:242][ 67]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:242][ 67]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:249][ 68]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:249][ 68]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:249][ 68]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:255][ 69]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:255][ 69]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:255][ 69]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:263][ 70]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:263][ 70]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:263][ 70]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:271][ 71]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:271][ 71]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:271][ 71]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:277][ 72]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:277][ 72]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:277][ 72]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:288][ 73]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:288][ 73]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:288][ 73]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:291][ 74]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:291][ 74]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:291][ 74]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:297][ 75]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:297][ 75]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:297][ 75]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:305][ 76]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:305][ 76]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:305][ 76]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:311][ 77]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:311][ 77]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:311][ 77]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:319][ 78]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:319][ 78]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:319][ 78]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:325][ 79]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:325][ 79]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:325][ 79]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:333][ 80]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:333][ 80]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:333][ 80]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:340][ 81]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:340][ 81]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:340][ 81]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:347][ 82]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:347][ 82]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:347][ 82]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:353][ 83]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:353][ 83]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:353][ 83]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:360][ 84]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:360][ 84]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:360][ 84]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:368][ 85]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:368][ 85]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:368][ 85]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:374][ 86]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:374][ 86]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:374][ 86]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:382][ 87]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:382][ 87]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:382][ 87]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:388][ 88]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:388][ 88]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:388][ 88]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:396][ 89]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:396][ 89]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:396][ 89]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:401][ 90]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:402][ 90]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:402][ 90]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:411][ 91]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:411][ 91]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:411][ 91]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:416][ 92]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:416][ 92]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:416][ 92]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:423][ 93]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:423][ 93]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:423][ 93]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:430][ 94]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:430][ 94]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:430][ 94]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:436][ 95]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:436][ 95]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:436][ 95]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:444][ 96]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:444][ 96]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:444][ 96]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:451][ 97]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:451][ 97]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:451][ 97]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:457][ 98]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:457][ 98]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:457][ 98]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:465][ 99]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:465][ 99]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:465][ 99]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:471][100]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:471][100]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:471][100]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:479][101]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:479][101]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:479][101]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:479][101]LogAudio: Warning: Detected orphaned looping sound '背景音效'.
+[2024.10.15-07.30.53:486][102]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:486][102]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:486][102]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:492][103]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:492][103]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:492][103]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:498][104]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:498][104]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:498][104]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:506][105]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:506][105]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:506][105]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:513][106]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:513][106]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:513][106]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:523][107]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:523][107]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:523][107]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:528][108]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:528][108]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:528][108]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:541][109]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:541][109]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:541][109]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:548][110]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:548][110]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:548][110]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:553][111]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:553][111]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:553][111]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:561][112]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:561][112]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:561][112]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:568][113]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:568][113]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:568][113]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:576][114]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:576][114]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:576][114]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:583][115]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:583][115]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:583][115]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:590][116]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:590][116]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:590][116]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:595][117]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:595][117]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:595][117]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:604][118]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:604][118]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:604][118]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:610][119]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:610][119]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:610][119]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:617][120]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:617][120]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:617][120]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:624][121]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:624][121]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:624][121]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:631][122]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:631][122]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:631][122]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:638][123]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:638][123]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:638][123]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:646][124]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:646][124]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:646][124]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:652][125]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:652][125]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:652][125]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:659][126]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:659][126]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:659][126]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:666][127]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:666][127]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:666][127]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:680][128]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:680][128]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:680][128]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:687][129]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:687][129]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:687][129]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:693][130]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:693][130]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:693][130]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:700][131]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:700][131]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:700][131]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:707][132]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:707][132]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:707][132]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:713][133]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:713][133]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:713][133]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:721][134]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:721][134]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:721][134]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:728][135]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:728][135]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:728][135]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:735][136]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:735][136]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:735][136]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:742][137]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:742][137]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:742][137]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:749][138]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:749][138]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:749][138]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:756][139]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:756][139]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:756][139]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:763][140]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:763][140]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:763][140]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:770][141]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:770][141]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:770][141]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:777][142]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:777][142]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:777][142]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:783][143]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:783][143]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:783][143]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:791][144]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:791][144]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:791][144]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:798][145]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:798][145]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:798][145]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:805][146]Closing by request
+[2024.10.15-07.30.53:805][146]LogWindows: FPlatformMisc::RequestExit(0, UGameEngine::HandleExitCommand)
+[2024.10.15-07.30.53:805][146]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, UGameEngine::HandleExitCommand)
+[2024.10.15-07.30.53:805][146]LogCore: Engine exit requested (reason: Win RequestExit)
+[2024.10.15-07.30.53:806][146]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:806][146]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:806][146]LogAudio: Display: RecursiveApplyAdjuster failed, likely because we are clearing the level.
+[2024.10.15-07.30.53:811][147]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.10.15-07.30.53:818][147]LogInit: Display: PreExit Game.
+[2024.10.15-07.30.53:818][147]LogWorld: BeginTearingDown for /Game/guanka/mainmenumap
+[2024.10.15-07.30.53:818][147]LogWorld: UWorld::CleanupWorld for mainmenumap, bSessionEnded=true, bCleanupResources=true
+[2024.10.15-07.30.53:818][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.15-07.30.53:818][147]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.10.15-07.30.53:818][147]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.10.15-07.30.54:751][147]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.10.15-07.30.54:751][147]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.10.15-07.30.54:751][147]LogAudio: Display: Audio Device unregistered from world 'mainmenumap'.
+[2024.10.15-07.30.54:751][147]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.10.15-07.30.54:796][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.10.15-07.30.54:797][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.10.15-07.30.54:810][147]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.10.15-07.30.54:810][147]LogAudio: Display: Audio Device Manager Shutdown
+[2024.10.15-07.30.54:810][147]LogSlate: Request Window '99 (64-bit Development PCD3D_SM5) ' being destroyed
+[2024.10.15-07.30.54:810][147]LogSlate: Window '99 (64-bit Development PCD3D_SM5) ' being destroyed
+[2024.10.15-07.30.54:838][147]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.10.15-07.30.54:838][147]LogExit: Preparing to exit.
+[2024.10.15-07.30.54:838][147]LogMoviePlayer: Shutting down movie player
+[2024.10.15-07.30.54:843][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.15-07.30.54:858][147]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.10.15-07.30.54:860][147]LogExit: Game engine shut down
+[2024.10.15-07.30.54:902][147]LogExit: Object subsystem successfully closed.
+[2024.10.15-07.30.54:962][147]RenderDocPlugin: plugin has been unloaded.
+[2024.10.15-07.30.54:965][147]LogPakFile: Destroying PakPlatformFile
+[2024.10.15-07.30.54:971][147]LogD3D11RHI: Shutdown
+[2024.10.15-07.30.54:971][147]LogD3D11RHI: CleanupD3DDevice
+[2024.10.15-07.30.55:016][147]LogExit: Exiting.
+[2024.10.15-07.30.55:036][147]Log file closed, 10/15/24 15:30:55
